@@ -1,3 +1,4 @@
+
     $(function() {
         var offset = $("#sidebar").offset();
         var topPadding = 5;

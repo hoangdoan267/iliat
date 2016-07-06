@@ -92,7 +92,6 @@ button {
 }
 .black-bg {
     background: #4d4d4d;
-    border: 1px solid black;
 }
 .desktop-nav {
     display: none;
@@ -338,37 +337,7 @@ button {
 .bullet {
     flex: 0 1 30%;
 }
-.course-content-block {
-    padding: 0 10px 10px;
-}
-.course-item {
-    border: 2px solid #31c36b;
-    padding-top: 20px;
-    border-radius: 10px;
-    margin-top: 10px;
-    vertical-align: top;
-    background: #ffffff;
-}
-.course-item h2 {
-    color: #31c36b;
-    font-family: agencyfontbold;
-    text-align: center;
-    margin: 0;
-    font-size: 4.7rem;
-}
-.course-item h3 {
-    color: #31c36b;
-    font-family: agencyfontbold;
-    text-align: center;
-    margin: 0;
-}
-h3.price {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #000000;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 .content-more {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -378,51 +347,103 @@ h3.price {
     font-size: 1.8rem;
     font-weight: 300;
 }
-.fa-check {
+.fa-chevron-right{
     color: #31c36b;
     margin-right: 10px;
 }
-.course-item li {
-    margin-top: 10px;
-    padding: 0;
+
+.skill-list{
+    font-size: 1.8rem;
 }
-.btn-course-item {
-    width: 100%;
-    border-radius: 0 0 7px 7px;
-    padding: 15px 30px;
+
+.skill-list img{
+    vertical-align: bottom;
+    margin-right: 20px;
+    float: left;
+    white-space: nowrap;
 }
-.course-ads {
-    font-size: 1.5rem;
+
+.skill-item{
+
+}
+
+.skill-list li{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.skill-list strong{
+    color: #31c36b;
+    margin-right: 10px;
+}
+
+.price-block p{
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.price h3{
+    margin: 0;
+}
+
+.price-block h4{
     font-weight: 300;
     text-align: center;
+    margin-bottom: 20px;
 }
-.course-input-group {
-    margin: 0 auto;
+
+.price{
+    width: 100%;
+    background: #ffffff;
+    border: 5px dashed #31c36b;
+    margin: 30px 0px;
+    border-radius: 10px;
+    padding: 15px 30px;
     text-align: center;
 }
+
 .btn-button-register {
-    width: 280px;
-    font-size: 1.8rem;
-    padding: 12px 30px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
 }
-.btn-button-noregister {
-    width: 280px;
-    outline: 0 none;
-    font-size: 1.4rem;
+
+.price-block .btn-button-register h4{
+    margin: 0;
+}
+
+.price-mobile{
+    display: block;
+}
+
+.price-desktop{
+    display: none;  
+}
+
+.register-block{
+    background: center center no-repeat;
+    background-image: url('../img/UK-Students1.png');
+    color: #ffffff;
     text-align: center;
-    margin-top: 15px;
-    border-radius: 8px;
-    color: #252525;
-    border: 1px solid #000000;
-    background-color: #ffffff;
 }
-.btn-button-noregister:hover {
-    background-color: #000000;
+
+.register-block p{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.btn-register{
+    padding: 20px 50px;
+    color: #31c36b;
+    background: #ffffff;
+    border: 1px solid #31c36b;
+}
+
+.btn-register:hover{
+    background: #31c36b;
     color: #ffffff;
 }
-.btn-button-noregister:active {
-    background: #ffffff;
-}
+
 .footer {
     padding: 0 15px;
     text-align: center;
@@ -518,12 +539,41 @@ footer a {
         text-align: center;
         padding-right: 100px;
     }
-    .course-input-group {
-        text-align: center;
+
+    .price-block .block-content{
+        position: relative;
     }
-    .btn-button-register {
-        margin-right: 100px;
+
+    .price-content{
+        margin-top: 32px;
+        max-width: 60%;
+        margin-bottom: 60px;
     }
+
+    .price-desktop{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .price-mobile{
+        display: none;
+    }
+
+    .register-block{
+        position: relative;
+        min-height: 400px;
+    }
+
+    .register-block .block-content{
+        max-width: 70%;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        right: 0;
+    }
+
 }
 @media(min-width: 1180px) {
     h1 {
@@ -704,48 +754,22 @@ footer a {
         width: 180px;
         height: 60px;
     }
+
     .note_one {
         float: left;
         font-weight: 600;
         text-align: center;
         padding-right: 80px;
     }
-    .course-block {
-        padding-left: 240px;
-        position: relative;
+
+    .price-content{
+        margin-bottom: 30px;
     }
-    .course-content-block {
-        padding-left: 20px;
-        padding-right: 20px;
+
+    .register-block .block-content{
+        padding-right: 110px;
     }
-    .course-ads {
-        padding: 35px 0;
-        font-size: 2.4rem;
-        font-weight: 500;
-    }
-    .btn-button-register {
-        width: 400px;
-        position: relative;
-        font-size: 2.4rem;
-        padding: 10px 50px;
-        display: inline-block;
-        margin-left: -300px;
-    }
-    .btn-button-noregister {
-        color: #252525;
-        border: 1px solid #000000;
-        background-color: #ffffff;
-        width: 400px;
-        display: block;
-        text-align: center;
-        padding: 14px 50px;
-        border-radius: 10px;
-        margin-top: -50px;
-        margin-left: 480px;
-    }
-    .course-input-group {
-        margin-top: -30px;
-    }
+
     .footer {
         flex-direction: row;
         justify-content: space-between;

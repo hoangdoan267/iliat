@@ -1,0 +1,17 @@
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "1557355_10152219312929767_658598807_o.png": Duplicate path: 1557355_10152219312929767_658598807_o.png
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "1557355_10152219312929767_658598807_o_gr.png": Duplicate path: 1557355_10152219312929767_658598807_o_gr.png
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "Tặng kèm:  - Bộ giáo trình đầy đủ lý thuyết và bài tập CR, SC, ": Expected end of input but "," found.
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "thumb-up-outline-symbol.png": Duplicate path: thumb-up-outline-symbol.png
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "book.png": Duplicate path: book.png
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "female-graduate-student.png": Duplicate path: female-graduate-student.png
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "Tặng kèm:  - Bộ giáo trình đầy đủ lý thuyết và bài tập CR, SC, ": Expected end of input but "," found.
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "+ Tổ chức thường xuyên các chương trình mentoring program, tea ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "+ Mô hình lớp học Constructivism (Student – centered)  + Câu lạ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "12273737_955006691232711_8323947260729467711_o.png": Duplicate path: 12273737_955006691232711_8323947260729467711_o.png
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "1557355_10152219312929767_658598807_o.png": Duplicate path: 1557355_10152219312929767_658598807_o.png
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "1557355_10152219312929767_658598807_o.png": Duplicate path: 1557355_10152219312929767_658598807_o.png
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "1557355_10152219312929767_658598807_o.png": Duplicate path: 1557355_10152219312929767_658598807_o.png
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "+ Mô hình lớp học Constructivism (Student – centered)  + Câu lạ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "+ Tổ chức thường xuyên các chương trình mentoring program, tea ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Tue Jul 05 2016 16:55:53 GMT+0700 (ICT)] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
